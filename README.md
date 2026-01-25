@@ -1,8 +1,8 @@
- # React Movie Simulator – React Frontend Application
+# React Movie Simulator – React Frontend Application
 
 A React-based movie browsing application built to understand real-world frontend development using modern React practices.
 
-This project focuses on component-based architecture, global state management using Context API, and consuming external APIs to render dynamic UI.
+This project focuses on component-based architecture, global state management using the Context API, and consuming external APIs to render dynamic UI.
 
 ---
 
@@ -11,14 +11,14 @@ This project focuses on component-based architecture, global state management us
 - JavaScript (ES6+)
 - Vite
 - CSS
-- Public Movie API (TMDB-style)
+- OMDb Public Movie API
 
 ---
 
 ## Core Features
 
 ### Movie Listing
-- Fetch movies from an external API
+- Fetch movies from the OMDb API
 - Display movies using reusable card components
 - Dynamically render UI based on API responses
 
@@ -39,14 +39,15 @@ This project focuses on component-based architecture, global state management us
 - How state updates propagate across components
 - Handling asynchronous API calls in React
 - Structuring a React project beyond simple tutorials
+- Managing API keys using environment variables
 
 ---
 
 ## Future Improvements
 - Search functionality
-- Movie filtering
+- Filtering options
 - Pagination or infinite scrolling
-- UI improvements
+- UI/UX enhancements
 
 ---
 
