@@ -1,16 +1,54 @@
-# React + Vite
+ # React Movie Simulator – React Frontend Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based movie browsing application built to understand real-world frontend development using modern React practices.
 
-Currently, two official plugins are available:
+This project focuses on component-based architecture, global state management using Context API, and consuming external APIs to render dynamic UI.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## Tech Stack
+- React
+- JavaScript (ES6+)
+- Vite
+- CSS
+- Public Movie API (TMDB-style)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Core Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Movie Listing
+- Fetch movies from an external API
+- Display movies using reusable card components
+- Dynamically render UI based on API responses
+
+### Favorites Management
+- Add and remove movies from a Favorites list
+- Global state managed using React Context
+- Favorites shared across components without prop drilling
+
+### Frontend Architecture
+- Clear separation of components and context logic
+- Centralized context provider for state sharing
+- Clean and maintainable project structure
+
+---
+
+## What I Learned
+- How React Context works for global state sharing
+- How state updates propagate across components
+- Handling asynchronous API calls in React
+- Structuring a React project beyond simple tutorials
+
+---
+
+## Future Improvements
+- Search functionality
+- Movie filtering
+- Pagination or infinite scrolling
+- UI improvements
+
+---
+
+## About the Project
+This project was built as part of my learning journey to strengthen frontend fundamentals and better understand how React applications manage state, data flow, and component reusability.
